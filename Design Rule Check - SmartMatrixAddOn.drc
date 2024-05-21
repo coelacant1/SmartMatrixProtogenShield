@@ -1,0 +1,86 @@
+Protel Design System Design Rule Check
+PCB File : D:\Altium\Projects\SmartMatrixAddOn\SmartMatrixAddOn.PcbDoc
+Date     : 5/20/2024
+Time     : 9:20:38 PM
+
+Processing Rule : Clearance Constraint (Gap=0.203mm) (OnLayer('Top Layer')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.203mm) (OnLayer('Bottom Layer')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.2mm) (Max=4mm) (Preferred=0.6mm) (All)
+Rule Violations :0
+
+Processing Rule : SMD Neck-Down Constraint (Percent=50%) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.076mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=6.3mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Polygon Region (20 hole(s)) Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Polygon Region (4 hole(s)) Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Polygon Region (54 hole(s)) Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (-0.02mm,-0.02mm)(-0.02mm,1.885mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (-0.02mm,-0.02mm)(2.52mm,-0.02mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (-0.02mm,1.885mm)(-0.02mm,35.54mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (-0.02mm,35.54mm)(2.52mm,35.54mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (2.52mm,-0.02mm)(2.52mm,35.54mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (33.95mm,-1.2mm)(33.95mm,-1.197mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (33.95mm,-1.2mm)(33.95mm,11.2mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (33.95mm,-1.2mm)(38.5mm,-1.2mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.15mm < 0.2mm) Between Board Edge And Track (33.95mm,11.2mm)(38.5mm,11.2mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.15mm < 0.2mm) Between Board Edge And Track (33.95mm,11.55mm)(38.5mm,11.55mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.15mm < 0.2mm) Between Board Edge And Track (33.95mm,23.95mm)(38.5mm,23.95mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (33.95mm,24.3mm)(33.95mm,36.7mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.15mm < 0.2mm) Between Board Edge And Track (33.95mm,24.3mm)(38.5mm,24.3mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (33.95mm,36.7mm)(38.5mm,36.7mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.194mm < 0.2mm) Between Board Edge And Track (36.25mm,6.25mm)(38.256mm,8.256mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.194mm < 0.2mm) Between Board Edge And Track (37.125mm,18.553mm)(38.256mm,17.422mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.194mm < 0.2mm) Between Board Edge And Track (38.256mm,8.256mm)(38.256mm,17.422mm) on Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (38.5mm,-1.2mm)(38.5mm,11.2mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.15mm < 0.2mm) Between Board Edge And Track (38.5mm,11.55mm)(38.5mm,23.95mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (38.5mm,24.3mm)(38.5mm,36.7mm) on Top Overlay 
+Rule Violations :23
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 23
+Waived Violations : 0
+Time Elapsed        : 00:00:01

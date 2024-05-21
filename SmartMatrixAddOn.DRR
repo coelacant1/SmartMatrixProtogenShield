@@ -1,0 +1,18 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: SmartMatrixAddOn.PcbDoc   5/20/2024  9:21:14 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : SmartMatrixAddOn.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      20mil (0.5mm)                                             Round             8         PTH        1.87inch (47.42mm)
+T2      24mil (0.6mm)                                             Round             84        PTH        8.82inch (223.96mm)
+T3      35mil (0.9mm)                                             Round             52        PTH        8.34inch (211.94mm)
+T4      91mil (2.3mm)                                             Round             4         PTH        0.62inch (15.75mm)
+T5      126mil (3.2mm)                                            Round             2         NPTH       1.14inch (29.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              150
+
+Total Processing Time (hh:mm:ss) : 00:00:00

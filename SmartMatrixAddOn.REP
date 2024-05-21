@@ -1,0 +1,249 @@
+*************************************************************
+FileName = SmartMatrixAddOn.GBR
+AutoAperture = True
+*************************************************************
+Generating : Bottom Pad Master
+      File : SmartMatrixAddOn.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D13
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : SmartMatrixAddOn.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : SmartMatrixAddOn.GTO
+
+    Adding Layer      : Top Overlay
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : SmartMatrixAddOn.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : SmartMatrixAddOn.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : SmartMatrixAddOn.GBO
+
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : SmartMatrixAddOn.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D13
+    D40
+    D41
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : SmartMatrixAddOn.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D28
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : SmartMatrixAddOn.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : SmartMatrixAddOn.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : SmartMatrixAddOn.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : SmartMatrixAddOn.GM
+
+
+Used DCodes :
+    D42
+*************************************************************
+
