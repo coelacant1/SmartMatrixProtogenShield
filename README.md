@@ -2,23 +2,34 @@
 SmartMatrix SmartLED Shield breakout for Protogen hardware
 
 
-### General Information
+## General Information
 The SmartLED Shield for the Teensy 4 is used as the backbone to this design. This allows you to use open-source code to easily implement if you decide against using ProtoTracer to display graphics on your Protogen!
 
 The following information is pulled directly from their Crowd Supply page as a means of maintaining a local copy in case they take the posting down:
 [SmartLED Shield for Teensy 4](https://www.crowdsupply.com/pixelmatix/smartled-shield-for-teensy-4)
 
-### Controller Breakout
+## Controller Breakout
 
-#### Information
+### Information
 The controller breakout provides sensor connectivity, power distribution, and indication methods for power.
 
-### Power Setup
+## Bill of Materials
 
-#### Powering the Teensy 4.0 for Programming
+| **RefDes**     | **Value**     | **Footprint** | **Quantity** | **Description**                       |
+|----------------|---------------|---------------|--------------|---------------------------------------|
+| C1-C4          | 22µF          | SMD 0805      | 4            | Power filtering capacitors            |
+| R1,R2,R5,R6    | 10KΩ          | SMD 0805      | 4            | Pull-up resistors                     |
+| R3,R4          | 470Ω          | SMD 0805      | 2            | APA102 impedance matching resistors   |
+| LED1-2         |               | SMD 0805      | 2            | Indicator LEDs. Type does not matter. |
+| LEDPWR, BCKPWR | AMASS XT30U-F | Through-Hole  | 2            | Power in and out                      |
+| I2C1-4         | JST S4B-XH-A  | Through-Hole  | 4            | I2C Devices                           |
+
+## Power Setup
+
+### Powering the Teensy 4.0 for Programming
 For programming the Teensy 4.0, the bottom VIN from VUSB trace needs to be cut to not provide power to the LED boards and cause damage while programming.
 
-#### Powering the Controller for Usage
+### Powering the Controller for Usage
 To use the controller, 5V must be provided to the XT30 connector. Make sure you follow the standards for the XT30 polarity!
 
 ## Sensors/Peripherals
