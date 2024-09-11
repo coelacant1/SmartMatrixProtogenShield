@@ -15,14 +15,17 @@ The controller breakout provides sensor connectivity, power distribution, and in
 
 ## Bill of Materials
 
-| **RefDes**     | **Value**     | **Footprint** | **Quantity** | **Description**                       |
-|----------------|---------------|---------------|--------------|---------------------------------------|
-| C1-C4          | 22µF          | SMD 0805      | 4            | Power filtering capacitors            |
-| R1,R2,R5,R6    | 10KΩ          | SMD 0805      | 4            | Pull-up resistors                     |
-| R3,R4          | 470Ω          | SMD 0805      | 2            | APA102 impedance matching resistors   |
-| LED1-2         |               | SMD 0805      | 2            | Indicator LEDs. Type does not matter. |
-| LEDPWR, BCKPWR | AMASS XT30U-F | Through-Hole  | 2            | Power in and out                      |
-| I2C1-4         | JST S4B-XH-A  | Through-Hole  | 4            | I2C Devices                           |
+| **RefDes**     | **Value**        | **Footprint** | **Quantity** | **Description**                                                    |
+|----------------|------------------|---------------|--------------|--------------------------------------------------------------------|
+| C1-C4          | 22µF             | SMD 0805      | 4            | Power filtering capacitors                                         |
+| R1,R2,R5,R6    | 10KΩ             | SMD 0805      | 4            | Pull-up resistors                                                  |
+| R3,R4          | 470Ω             | SMD 0805      | 2            | APA102 impedance matching resistors                                |
+| LED1-2         |                  | SMD 0805      | 2            | Indicator LEDs. Type does not matter.                              |
+| LEDPWR, BCKPWR | AMASS XT30U-F    | Through-Hole  | 2            | Power in and out                                                   |
+| I2C1-4         | JST S4B-XH-A     | Through-Hole  | 4            | I2C Devices                                                        |
+| J2             | JST B3B-XH-A     | Through-Hole  | 1            | Microphone in                                                      |
+| J1             | Molex 47053-1000 | Through-Hole  | 1            | PC PWM Fan Header (Substitute for random 2.54 male header at will) |
+| D1             | 1N4007 Diode     | SMD SOT-123   | 1            | Reverse current protection diode for the fan                       |
 
 ## Power Setup
 
@@ -35,7 +38,13 @@ To use the controller, 5V must be provided to the XT30 connector. Make sure you 
 ## Sensors/Peripherals
 
 ### Boop Sensor (APDS-9960)
-The APDS-9960 is a Time-of-Flight sensor that uses an IR light to measure the distance to the object in front of it using the I2C communication protocol. This can be connected on either the Teensy I2C breakout or the ESP32 I2C breakout. The following picture shows the recommended location for the device:
+The APDS-9960 is a Time-of-Flight sensor that uses an IR light to measure the distance to the object in front of it using the I2C communication protocol. This can be connected on either the Teensy I2C breakout or the ESP32 I2C breakout.
+
+### 9-axis IMU (BNO055)
+The BNO055 is a 9-axis IMU that can be used for stylistic effects on the protogen's displays. This can be connected on this Teensy breakout on the side.
+
+### PWM Fan (Noctua NF-A4x10 5V PWM)
+The NF-A4x10 5V PWM is a quiet and compact PWM fan that can be driven using the dedicated header on the breakout. If unable to source the Molex connector, any 2.54mm male header would work.
 
 ### MAX9814 Microphone
 The MAX9814 electret microphone is a standard electret microphone with automatic gain compensation via an amplifier. This will pick up a varying range of sounds and not just your voice, so it is best to tune the software gain appropriately.
@@ -74,9 +83,6 @@ Download ProtoTracer from here: [ProtoTracer](https://github.com/coelacant1/Prot
 
 ### 3D View with Components
 ![3D View with Components](Pictures/3DComponents.png)
-
-### Layer View
-![Layer View](Pictures/Layers.png)
 
 ### Electrical Schematic
 ![Electrical Schematic](Pictures/Schematic.png)
