@@ -3445,16 +3445,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 138.43) (xy 111.76 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37c3f855-82d8-4b4e-b0a4-ec198427b061")
-	)
-	(wire
-		(pts
 			(xy 83.82 111.76) (xy 83.82 114.3)
 		)
 		(stroke
@@ -3605,6 +3595,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 129.54) (xy 110.49 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57442e91-e72c-4390-aa5b-98e7bd99cab3")
+	)
+	(wire
+		(pts
 			(xy 135.89 129.54) (xy 137.16 129.54)
 		)
 		(stroke
@@ -3715,6 +3715,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 134.62) (xy 110.49 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92334fc5-fd93-48c3-a382-28d5dc5a719b")
+	)
+	(wire
+		(pts
 			(xy 83.82 104.14) (xy 85.09 104.14)
 		)
 		(stroke
@@ -3732,16 +3742,6 @@
 			(type default)
 		)
 		(uuid "945efbd6-ca82-40f3-beb6-2131210eb323")
-	)
-	(wire
-		(pts
-			(xy 111.76 134.62) (xy 110.49 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96584fa4-7ab5-445e-bf96-bc9fc3ead7b7")
 	)
 	(wire
 		(pts
@@ -3832,16 +3832,6 @@
 			(type default)
 		)
 		(uuid "a2a8138a-76dc-4f56-afe5-27205a89b09e")
-	)
-	(wire
-		(pts
-			(xy 111.76 129.54) (xy 110.49 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4c65caf-2f99-4271-93f2-bdcacdabc095")
 	)
 	(wire
 		(pts
@@ -4225,6 +4215,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 125.73) (xy 111.76 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f1f99e-53f3-4b30-8c08-98e29a21c7f1")
+	)
+	(wire
+		(pts
 			(xy 191.77 110.49) (xy 189.23 110.49)
 		)
 		(stroke
@@ -4464,17 +4464,6 @@
 		)
 		(uuid "9f71fba8-e26d-4df8-b45d-bd4b3a93d0fc")
 	)
-	(label "A1"
-		(at 111.76 138.43 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1bfe66b-10ec-4680-b251-954b16c6f07f")
-	)
 	(label "TIO20"
 		(at 129.54 127 0)
 		(fields_autoplaced yes)
@@ -4529,6 +4518,17 @@
 			(justify left bottom)
 		)
 		(uuid "d36b30c2-e220-4df7-8350-6cd33c064ff3")
+	)
+	(label "A1"
+		(at 111.76 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dfaa875a-06ad-4e9d-93a9-db133f08ea37")
 	)
 	(label "SDA0"
 		(at 137.16 60.96 180)
@@ -8001,6 +8001,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 111.76 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5231f3a-b955-439d-8864-e1cf12760e46")
+		(property "Reference" "#PWR026"
+			(at 111.76 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87c8c226-2aca-457c-8043-486bacae9a0d")
+		)
+		(instances
+			(project "SmartLED_Shield_Breakout"
+				(path "/3273f898-80c8-46f7-a0c9-1e27c65b3773"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 187.96 64.77 0)
 		(unit 1)
@@ -8199,72 +8265,6 @@
 			(project "SmartLED_Shield_Breakout"
 				(path "/3273f898-80c8-46f7-a0c9-1e27c65b3773"
 					(reference "LEDPWR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 111.76 129.54 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec7727d7-55ad-47ca-83ba-3540b079616d")
-		(property "Reference" "#PWR026"
-			(at 111.76 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "824a159d-ad42-4227-819d-886398e3562c")
-		)
-		(instances
-			(project "SmartLED_Shield_Breakout"
-				(path "/3273f898-80c8-46f7-a0c9-1e27c65b3773"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
